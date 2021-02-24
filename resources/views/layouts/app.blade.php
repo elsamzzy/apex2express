@@ -18,7 +18,7 @@
 <body>
 
 <!-- banner -->
-<div class="banner">
+<div class="@if(Request::url() === url('/')) banner @else banner-1 @endif">
     <div class="banner-dott">
         <!-- Top-Bar -->
         <div class="top">
@@ -52,22 +52,22 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <h1><a class="navbar-brand" href="index.html">{{ __('Apex2Express') }}</a></h1>
+                            <h1><a class="navbar-brand" href="{{ route('home') }}">{{ __('Apex2Express') }}</a></h1>
                         </div>
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                             <nav class="cl-effect-15" id="cl-effect-15">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="index.html">{{ __('Home') }}</a></li>
+                                    <li class="active"><a href="{{ route('home') }}">{{ __('Home') }}</a></li>
                                     <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-hover="Services" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ __('Services') }}<span class="caret"></span></a>
+                                        <a class="dropdown-toggle" data-hover="Services" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ __('Services') }}<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="icons.html">{{ __('All Services') }}</a></li>
-                                            <li><a href="typography.html">{{ __('Ocean Freight') }}</a></li>
-                                            <li><a href="typography.html">{{ __('Logistics') }}</a></li>
-                                            <li><a href="typography.html">{{ __('Air Freight') }}</a></li>
-                                            <li><a href="typography.html">{{ __('Cargo Express') }}</a></li>
-                                            <li><a href="typography.html">{{ __('Warehousing') }}</a></li>
-                                            <li><a href="typography.html">{{ __('Custom Brokerage') }}</a></li>
+                                            <li><a href="{{ route('services') }}">{{ __('All Services') }}</a></li>
+                                            <li><a href="{{ route('oceanfreight') }}">{{ __('Ocean Freight') }}</a></li>
+                                            <li><a href="{{ route('logistics') }}">{{ __('Logistics') }}</a></li>
+                                            <li><a href="{{ route('airfreight') }}">{{ __('Air Freight') }}</a></li>
+                                            <li><a href="{{ route('cargoexpress') }}">{{ __('Cargo Express') }}</a></li>
+                                            <li><a href="{{ route('warehouses') }}">{{ __('Warehousing') }}</a></li>
+                                            <li><a href="{{ route('custom') }}">{{ __('Custom Brokerage') }}</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="about.html">{{ __('About Us') }}</a></li>
