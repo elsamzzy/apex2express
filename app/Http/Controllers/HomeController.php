@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index() {
-        return view('home');
+        $title = "Apex2Express";
+        $description = "Apex2express Shipping and Logistics Company, Tracking of Parcels and delivery all over the globe";
+        return view('home', [
+            'title' => $title,
+            'description' => $description
+        ]);
     }
 }

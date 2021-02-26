@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class OceanFreightController extends Controller
 {
     public function index() {
-        return view('oceanfreight');
+        $title = "Ocean Freight | Apex2Express";
+        $description = "Get more insight about our top quality Ocean Freight";
+        return view('oceanfreight', [
+            'title' => $title,
+            'description' => $description
+        ]);
     }
 }

@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class CustomBrookageController extends Controller
 {
     public function index() {
-        return view('custom');
+        $title = "Custom Brokerage | Apex2Express";
+        $description = "Everything you need to know about our custom Brokerage service";
+        return view('custom', [
+            'title' => $title,
+            'description' => $description
+        ]);
     }
 }

@@ -8,6 +8,11 @@ class ServicesController extends Controller
 {
 
     public function index() {
-        return view('services');
+        $title = "Services | Apex2Express";
+        $description = "View all our Services which makes us No1 in the world";
+        return view('services', [
+            'title' =>  $title,
+            'description' => $description
+        ]);
     }
 }

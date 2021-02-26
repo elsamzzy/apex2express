@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{ __('Apex2express') }}</title>
+    <title>{{ $title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="{{ __('Apex2express Shipping and Logistics Company, Tracking of Parcels and delivery all over the globe') }}" />
+    <meta name="keywords" content="{{ $description }}" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link rel="stylesheet" href="{{ asset('css/flexslider.css') }}" type="text/css" media="all" />
@@ -57,22 +57,22 @@
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                             <nav class="cl-effect-15" id="cl-effect-15">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="{{ route('home') }}">{{ __('Home') }}</a></li>
-                                    <li class="dropdown">
+                                    <li @if(Request::url() === url('/')) class="active" @endif><a href="{{ route('home') }}">{{ __('Home') }}</a></li>
+                                    <li class="dropdown @if(Request::url() === url('/services') OR Request::url() === url('/custom') OR Request::url() === url('/warehouses') OR Request::url() === url('/cargo-express') OR Request::url() === url('/ocean-freight') OR Request::url() === url('/logistics') || Request::url() === url('/air-freight') ) active @endif">
                                         <a class="dropdown-toggle" data-hover="Services" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ __('Services') }}<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="{{ route('services') }}">{{ __('All Services') }}</a></li>
-                                            <li><a href="{{ route('oceanfreight') }}">{{ __('Ocean Freight') }}</a></li>
-                                            <li><a href="{{ route('logistics') }}">{{ __('Logistics') }}</a></li>
-                                            <li><a href="{{ route('airfreight') }}">{{ __('Air Freight') }}</a></li>
-                                            <li><a href="{{ route('cargoexpress') }}">{{ __('Cargo Express') }}</a></li>
-                                            <li><a href="{{ route('warehouses') }}">{{ __('Warehousing') }}</a></li>
-                                            <li><a href="{{ route('custom') }}">{{ __('Custom Brokerage') }}</a></li>
+                                            <li @if(Request::url() === url('/services')) class="active" @endif><a href="{{ route('services') }}">{{ __('All Services') }}</a></li>
+                                            <li @if(Request::url() === url('/ocean-freight')) class="active" @endif><a href="{{ route('oceanfreight') }}">{{ __('Ocean Freight') }}</a></li>
+                                            <li @if(Request::url() === url('/logistics')) class="active" @endif><a href="{{ route('logistics') }}">{{ __('Logistics') }}</a></li>
+                                            <li @if(Request::url() === url('/air-freight')) class="active" @endif><a href="{{ route('airfreight') }}">{{ __('Air Freight') }}</a></li>
+                                            <li @if(Request::url() === url('/cargo-express')) class="active" @endif><a href="{{ route('cargoexpress') }}">{{ __('Cargo Express') }}</a></li>
+                                            <li @if(Request::url() === url('/warehouses')) class="active" @endif><a href="{{ route('warehouses') }}">{{ __('Warehousing') }}</a></li>
+                                            <li @if(Request::url() === url('/custom')) class="active" @endif><a href="{{ route('custom') }}">{{ __('Custom Brokerage') }}</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">{{ __('About Us') }}</a></li>
-                                    <li><a href="services.html">{{ __('Track Your Shipment') }}</a></li>
-                                    <li><a href="contact.html">{{ __('Contact') }}</a></li>
+                                    <li @if(Request::url() === url('/about')) class="active" @endif><a href="{{ route('about') }}">{{ __('About Us') }}</a></li>
+                                    <li @if(Request::url() === url('/track')) class="active" @endif><a href="{{ route('track') }}">{{ __('Track Your Shipment') }}</a></li>
+                                    <li @if(Request::url() === url('/contact')) class="active" @endif><a href="{{ route('contact') }}">{{ __('Contact') }}</a></li>
                                 </ul>
 
                             </nav>
@@ -166,14 +166,12 @@
             </div>
             <div class="modal-body">
                 <img src="{{ asset('img/1.jpg') }}" alt=" " class="img-responsive" />
-                <p>Ut enim ad minima veniam, quis nostrum
-                    exercitationem ullam corporis suscipit laboriosam,
-                    nisi ut aliquid ex ea commodi consequatur? Quis autem
-                    vel eum iure reprehenderit qui in ea voluptate velit
-                    esse quam nihil molestiae consequatur, vel illum qui
-                    dolorem eum fugiat quo voluptas nulla pariatur.
-                    <i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                        esse quam nihil molestiae consequatur.</i></p>
+                <ul class="list-group" style="margin-top: 5px;">
+                    <li class="list-group-item-warning"><h5>{{ __('CUSTOMER SATISFACTION') }}</h5>{{ __('We have helped clients throughout every industry.  Our corporate clients know that they can trust us with even the most sensitive of material because they know we deliver on our promises, providing nothing but the best. We always exceed our customer’s expectations. ') }}</li><br>
+                    <li class="list-group-item-warning"><h5>{{ __('MONITORING AND REPORTING') }}</h5>{{ __('Apex2Express Shipping Company constantly monitors each movement of shipment form the collection point to the delivery destination. Our vehicles are equipped with GPS satellite tracking devices that able us to check their position regularly. Updates are sent to our Clients at the time of collection, while goods are in transit and at delivery. Any issues or delays incurred in-route are being reported. ') }}</li><br>
+                    <li class="list-group-item-warning"><h5>{{ __('FAST AND FLEXIBLE') }}</h5>{{ __('Apex2Express Shipping Company prides ourselves on our flexibility and quality of service. We can adapt our services to fit any unusual or specific requirements. We can also offer same-day deliveries subject to negation and practicality. In addition to our international air service, we now offer a full European road service to provide you with the best possible service for your money. ') }}</li><br>
+                    <li class="list-group-item-warning"><h5>{{ __('COMPLIANCE SOLUTIONS') }}</h5>{{ __('We ensure export compliance and smooth delivery right to your door. At Apex2Express Shipping Company, we treat every package as if it were our own, and that means doing everything we can to help ensure fast, compliant delivery of purchases. We understand different challenges when shipping, and our member-devoted support team is prepared to answer your compliance, duty, and tax questions to make international shipping worry-free. ') }}</li><br>
+                </ul>
             </div>
         </div>
     </div>

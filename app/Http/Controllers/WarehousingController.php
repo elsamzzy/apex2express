@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class WarehousingController extends Controller
 {
     public function index() {
-        return view('warehouses');
+        $title = "Warehousing | Apex2Express";
+        $description = "Know more about our safe and secured warehouses and their locations";
+        return view('warehouses', [
+            'title' => $title,
+            'description' => $description
+        ]);
     }
 }
