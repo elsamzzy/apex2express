@@ -5,6 +5,7 @@ use App\Http\Controllers\AirFreightController;
 use App\Http\Controllers\CargoExpressController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CustomBrookageController;
+use App\Http\Controllers\DetailsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LogisticsController;
 use App\Http\Controllers\OceanFreightController;
@@ -37,3 +38,5 @@ Route::get('/track', [TrackController::class, 'index'])->name('track');
 Route::post('/track', [TrackController::class, 'store']);
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store']);
+
+Route::get('/track/{track:track_id}', [DetailsController::class, 'index'])->name('details');
