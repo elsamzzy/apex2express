@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>{{ $title }}</title>
+    <link rel="icon" href="{{ asset('img/favicon.ico') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="{{ $description }}" />
@@ -9,7 +10,7 @@
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link rel="stylesheet" href="{{ asset('css/flexslider.css') }}" type="text/css" media="all" />
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/style_v2.css') }}" rel="stylesheet" type="text/css" media="all" />
     <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
     <link href="{{ asset('css/simpleLightbox.css') }}" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -26,8 +27,9 @@
 
                 <div class="col-md-6 top-left">
                     <ul>
-                        <li><i class="fa fa-mobile" aria-hidden="true"></i> +021 365 777</li>
-                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> 132 New Lenox, 868 1st Avenue </li>
+                        <li><i class="fa fa-mobile" aria-hidden="true"></i>+1 4052253354</li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>Head Office: 104 Kohler St, Nashville, AR 71852 </li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>Branch Office: 617, W Patti Page Blvd CLAREMORE OK 74017 </li>
                     </ul>
                 </div>
                 <div class="col-md-6 top-middle">
@@ -52,7 +54,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <h1><a class="navbar-brand" href="{{ route('home') }}">{{ __('Apex2Express') }}</a></h1>
+                            <a href="{{ route('home') }}"><img class="navbar-brand" src="{{ asset('img/logo.png') }}" alt="{{ __('apex2xpress') }}" style="width: 353px; height: 174px" /></a>
                         </div>
                         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                             <nav class="cl-effect-15" id="cl-effect-15">
@@ -86,7 +88,7 @@
             <!-- w3-banner -->
             <div class="w3-banner">
                 <div id="typer"></div>
-                <p>{{ __('Apex2express is a Top branded Logistics company, We specialize in packaging, Tracking and Delivery of around the globe') }}</p>
+                <p>{{ __('apex2xpress is a Top branded Logistics company, We specialize in packaging, Tracking and Delivery of around the globe') }}</p>
             </div>
         @endif
         <!-- //w3-banner -->
@@ -102,19 +104,20 @@
             <div class="col-md-4 agileits_w3layouts_footer_grid">
                 <h3>Call Us Now</h3>
                 <ul>
-                    <li><span>Office Phone :</span> (+123) 2302 232</li>
-                    <li><span>Fax :</span> (+123) 123 456 455</li>
+                    <li><span>Office Phone :</span> (+1) 4052253354</li>
                 </ul>
             </div>
             <div class="col-md-4 agileits_w3layouts_footer_grid">
-                <h3>Address</h3>
-                <p>132 New Lenox, 868 1st Avenue <i>4th United States.</i></p>
+                <h3>Head Office: </h3>
+                <p>104 Kohler St, Nashville, AR 71852</i></p><br>
+                <h3>Branch Office: </h3>
+                <p>617 W Patti Page Blvd, CLAREMORE OK 74017</p>
             </div>
             <div class="col-md-4 agileits_w3layouts_footer_grid">
                 <h3>send a message</h3>
                 <ul>
-                    <li><span>Email :</span> <a href="mailto:info@example.com">info@example1.com</a></li>
-                    <li><span>Enquiry :</span> <a href="mailto:info@enquiry.com">info@enquiry.com</a></li>
+                    <li><span>Email :</span> <a href="mailto:info@apex2xpress.com">info@apex2xpress.com</a></li>
+                    <li><span>Enquiry :</span> <a href="mailto:info@apex2xpress.com">info@apex2xpress.com</a></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -132,11 +135,8 @@
                 </ul>
             </div>
             <div class="col-md-4 w3_agileits_footer_grid">
-                <h3>Subscribe Now</h3>
-                <form action="#" method="post">
-                    <input type="email" name="Email" placeholder="Email" required="">
-                    <input type="submit" value="Submit ">
-                </form>
+                <h3>Partners</h3>
+                <img src="{{ asset('img/y3.jpg')}}" alt="Partners" />
             </div>
             <div class="clearfix"> </div>
         </div>
@@ -152,7 +152,9 @@
                 <li><a class="facebook" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
             </ul>
         </div>
-        <p>© 2021 Apex2Express. All rights reserved</p>
+        <p>© <script>
+                        document.write(new Date().getFullYear())
+                    </script> apex2xpress. All rights reserved</p>
     </div>
 </div>
 <!-- //footer -->
@@ -161,16 +163,16 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                {{ __('Apex2Express') }}
+                {{ __('apex2xpress') }}
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
                 <img src="{{ asset('img/1.jpg') }}" alt=" " class="img-responsive" />
                 <ul class="list-group" style="margin-top: 5px;">
                     <li class="list-group-item-warning"><h5>{{ __('CUSTOMER SATISFACTION') }}</h5>{{ __('We have helped clients throughout every industry.  Our corporate clients know that they can trust us with even the most sensitive of material because they know we deliver on our promises, providing nothing but the best. We always exceed our customer’s expectations. ') }}</li><br>
-                    <li class="list-group-item-warning"><h5>{{ __('MONITORING AND REPORTING') }}</h5>{{ __('Apex2Express Shipping Company constantly monitors each movement of shipment form the collection point to the delivery destination. Our vehicles are equipped with GPS satellite tracking devices that able us to check their position regularly. Updates are sent to our Clients at the time of collection, while goods are in transit and at delivery. Any issues or delays incurred in-route are being reported. ') }}</li><br>
-                    <li class="list-group-item-warning"><h5>{{ __('FAST AND FLEXIBLE') }}</h5>{{ __('Apex2Express Shipping Company prides ourselves on our flexibility and quality of service. We can adapt our services to fit any unusual or specific requirements. We can also offer same-day deliveries subject to negation and practicality. In addition to our international air service, we now offer a full European road service to provide you with the best possible service for your money. ') }}</li><br>
-                    <li class="list-group-item-warning"><h5>{{ __('COMPLIANCE SOLUTIONS') }}</h5>{{ __('We ensure export compliance and smooth delivery right to your door. At Apex2Express Shipping Company, we treat every package as if it were our own, and that means doing everything we can to help ensure fast, compliant delivery of purchases. We understand different challenges when shipping, and our member-devoted support team is prepared to answer your compliance, duty, and tax questions to make international shipping worry-free. ') }}</li><br>
+                    <li class="list-group-item-warning"><h5>{{ __('MONITORING AND REPORTING') }}</h5>{{ __('apex2xpress Shipping Company constantly monitors each movement of shipment form the collection point to the delivery destination. Our vehicles are equipped with GPS satellite tracking devices that able us to check their position regularly. Updates are sent to our Clients at the time of collection, while goods are in transit and at delivery. Any issues or delays incurred in-route are being reported. ') }}</li><br>
+                    <li class="list-group-item-warning"><h5>{{ __('FAST AND FLEXIBLE') }}</h5>{{ __('apex2xpress Shipping Company prides ourselves on our flexibility and quality of service. We can adapt our services to fit any unusual or specific requirements. We can also offer same-day deliveries subject to negation and practicality. In addition to our international air service, we now offer a full European road service to provide you with the best possible service for your money. ') }}</li><br>
+                    <li class="list-group-item-warning"><h5>{{ __('COMPLIANCE SOLUTIONS') }}</h5>{{ __('We ensure export compliance and smooth delivery right to your door. At apex2xpress Shipping Company, we treat every package as if it were our own, and that means doing everything we can to help ensure fast, compliant delivery of purchases. We understand different challenges when shipping, and our member-devoted support team is prepared to answer your compliance, duty, and tax questions to make international shipping worry-free. ') }}</li><br>
                 </ul>
             </div>
         </div>
@@ -235,6 +237,23 @@
         });
     }).resize();
 </script>
+@if(session('sent'))
+    <script>
+        setInterval(function() {
+            var element =  document.getElementById('message');
+            var fadeTarget = document.getElementById("message");
+            if (typeof(element) != 'undefined' && element != null)
+            {
+                if (!fadeTarget.style.opacity) {
+                    fadeTarget.style.opacity = 1;
+                }
+                if (fadeTarget.style.opacity > 0) {
+                    fadeTarget.style.opacity -= 0.1;
+                }
+            }
+        }, 300);
+    </script>
+@endif
 <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
 <script src="{{ asset('js/jquery.countup.js') }}"></script>
 <script>

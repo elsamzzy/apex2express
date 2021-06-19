@@ -18,7 +18,7 @@
                             </div>
                             <div class="wthree-services-captn">
                                 <h4>{{ __('Custom Brokerage') }}</h4>
-                                <p>{{ __('When your business relies on imported goods, you need to work with a shipping services company that can get your merchandise through customs in a timely manner. Apex2Express Shipping Company is made up of a team of highly-experienced customs brokers and entry writers. allowing them to foresee and avoid potential obstacles to customs clearance.') }}</p>
+                                <p>{{ __('When your business relies on imported goods, you need to work with a shipping services company that can get your merchandise through customs in a timely manner. apex2xpress Shipping Company is made up of a team of highly-experienced customs brokers and entry writers. allowing them to foresee and avoid potential obstacles to customs clearance.') }}</p>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                             </div>
                             <div class="wthree-services-captn">
                                 <h4>{{ __('Ocean Freight') }}</h4>
-                                <p>{{ __('Apex2Express Shipping Company offers worldwide ocean freight transport solutions, both for import and export and for every type of shipment, also for dangerous goods. Dedicated contact persons will organize your shipments in a container or conventionally/in breakbulk.') }}</p>
+                                <p>{{ __('apex2xpress Shipping Company offers worldwide ocean freight transport solutions, both for import and export and for every type of shipment, also for dangerous goods. Dedicated contact persons will organize your shipments in a container or conventionally/in breakbulk.') }}</p>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             </div>
                             <div class="wthree-services-captn">
                                 <h4>{{ __('Logistics') }}</h4>
-                                <p>{{ __('Whatever it is, wherever it needs to go, however, it needs to get there, Apex2Express Shipping Company can help you run your logistics on time and on budget') }}</p>
+                                <p>{{ __('Whatever it is, wherever it needs to go, however, it needs to get there, apex2xpress Shipping Company can help you run your logistics on time and on budget') }}</p>
                             </div>
                         </div>
                     </div>
@@ -114,12 +114,12 @@
                 <div class="col-sm-6 wthree-top-grid">
                     <img src="{{{ asset('img/g2.jpg') }}}" alt="" />
                     <h4>{{ __('Who We Are') }}</h4>
-                    <p>{{ __('Apex2Express Shipping Company is one of the largest independent courier company, with an enviable reputation for delivering high quality, flexible, and cost-effective services to its clients.') }} <br> {{ __('The business was founded over 29 years ago and operates a fleet of more than 60 vehicles, from environmentally efficient push bikes for city centre courier work, to motorcycles, small vans, and large vans and up to HGV Lorries. Our family-run business values hard work, respect, commitment, and teamwork. Our workplace is characterized by the high energy, enthusiasm, and effort of our employees who thrive in this positive environment. We are committed to providing our customers with the first-rate service, which starts with our employees’ dedication to our enterprise of services.') }}</p>
+                    <p>{{ __('apex2xpress Shipping Company is one of the largest independent courier company, with an enviable reputation for delivering high quality, flexible, and cost-effective services to its clients.') }} <br> {{ __('The business was founded over 29 years ago and operates a fleet of more than 60 vehicles, from environmentally efficient push bikes for city centre courier work, to motorcycles, small vans, and large vans and up to HGV Lorries. Our family-run business values hard work, respect, commitment, and teamwork. Our workplace is characterized by the high energy, enthusiasm, and effort of our employees who thrive in this positive environment. We are committed to providing our customers with the first-rate service, which starts with our employees’ dedication to our enterprise of services.') }}</p>
                 </div>
                 <div class="col-sm-6 wthree-top-grid">
                     <img src="{{ asset('img/g3.jpg') }}" alt="" />
                     <h4>{{ __('What We Do') }}</h4>
-                    <p>{{ __('More than just a shipping company, Apex2Express Shipping Company has developed a range of specialist shipping services for those looking for a total delivery solutions partner. Whether you are a multi-site corporation, a public sector organization, or a small local business, we have a solution to help improve efficiency and reduce cost. Be it a bespoke courier solution or an off the peg delivery service the answer is always Apex2Express Shipping Company.') }}</p>
+                    <p>{{ __('More than just a shipping company, apex2xpress Shipping Company has developed a range of specialist shipping services for those looking for a total delivery solutions partner. Whether you are a multi-site corporation, a public sector organization, or a small local business, we have a solution to help improve efficiency and reduce cost. Be it a bespoke courier solution or an off the peg delivery service the answer is always apex2xpress Shipping Company.') }}</p>
                 </div>
                 <div class="clearfix"> </div>
             </div>

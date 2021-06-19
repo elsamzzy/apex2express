@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class TrackController extends Controller
 {
     public function index() {
-        $title = "Track Your Shipments | Apex2Express";
+        $title = "Track Your Shipments | Apex2xpress";
         $description = "Track your shipments and cargo and get detailed, accurate location status about them";
         return view('trackshipping', [
             'title' => $title,
@@ -21,13 +21,8 @@ class TrackController extends Controller
            'tracking_id' => ['required', 'string']
         ]);
 
-        $info = explode('_', $request['tracking_id']);
-
-        if($data = Track::where('name', $info[0])->first()){
-            if($data->id == $info[1]){
-                return redirect()->route('details', $data);
-            }
-            return back()->with('fail', 'Tracking number does not exist in our record, Please contact your sender');
+        if($data = Track::where('tracking_number',$request['tracking_id'])->first()){
+            return redirect()->route('details', $data);
         }
         return back()->with('fail', 'Tracking number does not exist in our record, Please contact your sender');
     }

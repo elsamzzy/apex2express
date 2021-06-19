@@ -1,104 +1,411 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/public/css/style.css" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6321533e-64b1-4326-a08f-9351aad3f0dc" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6321533e-64b1-4326-a08f-9351aad3f0dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin/database/migrations/2021_03_03_172602_add_tracking_number_to_tracks_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/database/migrations/2021_04_19_232102_add_booking_mode_to_tracks_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/database/migrations/2021_04_22_153842_add_phone_column_to_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/database/migrations/2021_04_22_154737_rename_location_in_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/database/migrations/2021_04_22_155822_add_origin_to_tracks_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.idea/admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/.idea/admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/app/Http/Controllers/DetailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/app/Http/Controllers/DetailsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/app/Http/Controllers/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/app/Http/Controllers/SettingsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/app/Models/Track.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/app/Models/Track.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/css/black-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/css/black-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/css/nucleo-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/css/nucleo-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/material-icon/css/material-design-iconic-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/material-icon/css/material-design-iconic-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/material-icon/css/material-design-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/material-icon/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/nucleo.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/nucleo.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/nucleo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/nucleo.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/nucleo.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/nucleo.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/nucleo.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/nucleo.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/12345.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/12345.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/anime3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/anime3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/anime6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/anime6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/apple-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/bg5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/bg5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/default-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/default-avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/emilyz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/emilyz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/img_3115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/img_3115.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/james.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/james.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/mike.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/mike.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/now-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/now-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/signin-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/signin-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/img/signup-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/img/signup-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/black-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/black-dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/black-dashboard.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/black-dashboard.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/black-dashboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/black-dashboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/bootstrap-notify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/bootstrap-notify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/chartjs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/chartjs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/perfect-scrollbar.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/perfect-scrollbar.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_alerts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_checkboxes-radio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_checkboxes-radio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_example-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_example-pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_fixed-plugin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_fixed-plugin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_rtl.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_rtl.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_sidebar-and-main-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_sidebar-and-main-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_white-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/_white-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-chart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-chart.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-plain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-plain.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-task.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-task.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/cards/_card-user.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_page-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_popovers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_wizard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/_wizard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/opacity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/mixins/opacity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_floating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_floating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_helper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_transform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/utilities/_transform.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/vendor/_plugin-animate-bootstrap-notify.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/vendor/_plugin-animate-bootstrap-notify.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/vendor/_plugin-perfect-scrollbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/custom/vendor/_plugin-perfect-scrollbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/plugins/_plugin-perfect-scrollbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/public/scss/black-dashboard/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/resources/views/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/resources/views/details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/resources/views/settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/resources/views/settings.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/apex2express.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apex2express.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AboutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AirFreightController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AirFreightController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CargoExpressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CargoExpressController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomBrookageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomBrookageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DetailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DetailsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LogisticsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LogisticsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OceanFreightController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OceanFreightController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServicesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServicesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TrackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TrackController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WarehousingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WarehousingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/flexslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/simpleLightbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/simpleLightbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/c1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/c1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/c2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/c2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/c3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/c3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/c4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/c4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/dott.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/dott.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/g9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/g9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/t1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/t1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/t2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/t2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/t3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/t3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/t4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/t4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/SmoothScroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/SmoothScroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/easing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-2.1.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.countup.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.countup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.flexslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.flexslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.typer.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.typer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/move-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/move-top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/simpleLightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/simpleLightbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/custom.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/custom.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-              <folding>
-                <element signature="e#7#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ServicesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>__</find>
-      <find>.jpg</find>
-      <find>1.jpg</find>
-      <find>SATISFIED CUSTOMERS</find>
-      <find>PathBird</find>
-    </findStrings>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ServicesController.php" />
-        <option value="$PROJECT_DIR$/resources/views/services.blade.php" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -210,79 +517,26 @@
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="5">
-    <option name="x" value="980" />
-    <option name="y" value="25" />
-    <option name="width" value="940" />
-    <option name="height" value="990" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex2express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex2express" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1sfwDqgnBjrFMscWLg6YB2MGmYK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Laravel\apex2xpress\apex2express\public\css" />
+      <recent name="$PROJECT_DIR$/resources/views/mail" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/js" />
@@ -290,24 +544,13 @@
       <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -318,121 +561,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614040182541</updated>
-      <workItem from="1614040184300" duration="14178000" />
+      <workItem from="1614040184300" duration="40968000" />
+      <workItem from="1614354752161" duration="10409000" />
+      <workItem from="1614623939123" duration="60000" />
+      <workItem from="1614703040504" duration="7069000" />
+      <workItem from="1614712805268" duration="776000" />
+      <workItem from="1614716882553" duration="2696000" />
+      <workItem from="1621276836234" duration="4715000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14178000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="41" y="25" width="1879" height="990" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20294599" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="RNConsole" />
-      <window_info anchor="bottom" id="TG" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32908458" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329849" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="548" column="51" selection-start-line="548" selection-start-column="47" selection-end-line="548" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/flexslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ServicesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="207" y="238" key="FileChooserDialogImpl" timestamp="1621278997322">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="207" y="238" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1621278997322" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
