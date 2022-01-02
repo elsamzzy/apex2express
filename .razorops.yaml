@@ -12,8 +12,6 @@ steps:
 
       # use composer to manage dependencies 
       - composer -V
-
-steps:
     - cache/pull: composer-cache-{{ checksum "composer.lock" }}
     - run: composer install -n --prefer-dist
     - cache/push:
@@ -21,8 +19,6 @@ steps:
         paths:
         - vendor # composer vendor directory
         - ~/.composer/vendor # (default vendor path in linux-vm environment)
-
-steps:
       - commands: 
         - composer install -n --prefer-dist
 
