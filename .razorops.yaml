@@ -15,9 +15,7 @@ steps:
 
 steps:
     - cache/pull: composer-cache-{{ checksum "composer.lock" }}
-    ...
     - run: composer install -n --prefer-dist
-    ...
     - cache/push:
       - key: composer-cache-{{ checksum "composer.lock" }}
         paths:
@@ -25,13 +23,11 @@ steps:
         - ~/.composer/vendor # (default vendor path in linux-vm environment)
 
 steps:
-      ...
       - commands: 
         - composer install -n --prefer-dist
 
         # read more at https://phpunit.readthedocs.io/en/9.3/code-coverage-analysis.html  
         - phpunit --coverage-html cover --coverage-xml coverage.xml
-      ...
 
       - reports/html: 
           dir: cover # generated from line 7
