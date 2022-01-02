@@ -1,0 +1,40 @@
+tasks:
+  php8: # or any name
+    runner: razorci/php:8.0
+
+runner:
+      os_image: ubuntu # Use linux-vm build environment
+
+    steps:
+    - checkout
+    - commands:
+      - phpbrew switch 8.0
+
+      # use composer to manage dependencies 
+      - composer -V
+
+steps:
+    - cache/pull: composer-cache-{{ checksum "composer.lock" }}
+    ...
+    - run: composer install -n --prefer-dist
+    ...
+    - cache/push:
+      - key: composer-cache-{{ checksum "composer.lock" }}
+        paths:
+        - vendor # composer vendor directory
+        - ~/.composer/vendor # (default vendor path in linux-vm environment)
+
+steps:
+      ...
+      - commands: 
+        - composer install -n --prefer-dist
+
+        # read more at https://phpunit.readthedocs.io/en/9.3/code-coverage-analysis.html  
+        - phpunit --coverage-html cover --coverage-xml coverage.xml
+      ...
+
+      - reports/html: 
+          dir: cover # generated from line 7
+
+      - reports/junit:
+          paths: coverage.xml # generated from line 7
