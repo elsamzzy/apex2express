@@ -5,7 +5,7 @@ tasks:
 runner:
       os_image: ubuntu # Use linux-vm build environment
 
-    steps:
+steps:
     - checkout
     - commands:
       - phpbrew switch 8.0
