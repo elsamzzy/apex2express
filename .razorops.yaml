@@ -1,9 +1,8 @@
 tasks:
   php8: # or any name
-    runner: razorci/php:8.0
-
-runner:
-      os_image: ubuntu # Use linux-vm build environment
+    # runner: razorci/php:8.0
+    runner:
+        os_image: ubuntu # Use linux-vm build environment
 
 steps:
     - checkout
